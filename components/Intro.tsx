@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -28,7 +28,7 @@ const Intro = () => {
             transition={{ type: 'tween', duration: 0.2 }}
           >
             <Image
-              src="/my-photo.jpg"
+              src="/me.jpg"
               alt="my photo"
               height={192}
               width={192}
@@ -43,11 +43,10 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{' '}
-        <span className="font-bold">full-stack developer</span> with{' '}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">si tes & apps</span>. My focus is{' '}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I'm Glib.</span> I'm a{' '}
+        <span className="font-bold">Front-end developer</span> with{' '}
+        <span className="font-bold">more than 3 years</span> of experience. My
+        focus is <span className="underline">React</span>.
       </motion.h1>
 
       <motion.div
