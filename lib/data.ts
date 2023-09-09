@@ -3,6 +3,7 @@ import { AiFillBug } from 'react-icons/ai';
 import { FaReact } from 'react-icons/fa';
 import sharePrompts from '@/public/share_prompts.png';
 import threejs from '@/public/threejs.png';
+import nike from '@/public/nike.png';
 
 export const links = [
   {
@@ -58,6 +59,7 @@ export const projectsData = [
     description: 'Create your own cool Prompts and share it with everyone',
     tags: ['React', 'Next.js', 'MongoDB', 'Tailwind'],
     imageUrl: sharePrompts,
+    targetLink: 'https://share-prompts-lac.vercel.app/',
   },
   {
     title: 'T-shirt customizer',
@@ -72,6 +74,14 @@ export const projectsData = [
       'Framer Motion ',
     ],
     imageUrl: threejs,
+    targetLink: 'https://github.com/bigGlebowski92/threejs',
+  },
+  {
+    title: 'Nike Shop',
+    description: 'Landing page of the popular sport shop!',
+    tags: ['React', 'Next.js', 'Tailwind'],
+    imageUrl: nike,
+    targetLink: 'https://nike-shop-delta.vercel.app/',
   },
 ] as const;
 
